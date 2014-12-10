@@ -1,0 +1,158 @@
+﻿Build started 12/4/2014 4:12:34 PM.
+     1>Project "C:\Users\xcy\Documents\Visual Studio 2012\Projects\Qt_test\Qt_test\Qt_test.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing qt_test.h...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.3\msvc2012_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\5.3\msvc2012_opengl\include\QtCore /IC:\Qt\5.3\msvc2012_opengl\include\QtGui /IC:\Qt\5.3\msvc2012_opengl\include\QtMultimedia /IC:\Qt\5.3\msvc2012_opengl\include\QtMultimediaWidgets /IC:\Qt\5.3\msvc2012_opengl\include\QtOpenGL /IC:\Qt\5.3\msvc2012_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_qt_test.cpp main.cpp qt_test.cpp
+         moc_qt_test.cpp
+         main.cpp
+         qt_test.cpp
+     1>qt_test.cpp(7): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(7): error C2228: left of '.setupUi' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(19): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(19): error C2228: left of '.menuBar' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(19): error C2514: 'QAction' : class has no constructors
+                 C:\Qt\5.3\msvc2012_opengl\include\QtWidgets/qwidget.h(69) : see declaration of 'QAction'
+     1>qt_test.cpp(20): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(20): error C2228: left of '.menuBar' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(20): error C2514: 'QAction' : class has no constructors
+                 C:\Qt\5.3\msvc2012_opengl\include\QtWidgets/qwidget.h(69) : see declaration of 'QAction'
+     1>qt_test.cpp(21): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(21): error C2228: left of '.menuBar' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(21): error C2514: 'QAction' : class has no constructors
+                 C:\Qt\5.3\msvc2012_opengl\include\QtWidgets/qwidget.h(69) : see declaration of 'QAction'
+     1>qt_test.cpp(22): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(22): error C2228: left of '.menuBar' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(22): error C2514: 'QAction' : class has no constructors
+                 C:\Qt\5.3\msvc2012_opengl\include\QtWidgets/qwidget.h(69) : see declaration of 'QAction'
+     1>qt_test.cpp(24): error C2664: 'QMetaObject::Connection QObject::connect(const QObject *,const char *,const char *,Qt::ConnectionType) const' : cannot convert argument 1 from 'QAction *' to 'const QObject *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>qt_test.cpp(25): error C2664: 'QMetaObject::Connection QObject::connect(const QObject *,const char *,const char *,Qt::ConnectionType) const' : cannot convert argument 1 from 'QAction *' to 'const QObject *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>qt_test.cpp(26): error C2664: 'QMetaObject::Connection QObject::connect(const QObject *,const char *,const char *,Qt::ConnectionType) const' : cannot convert argument 1 from 'QAction *' to 'const QObject *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>qt_test.cpp(27): error C2664: 'QMetaObject::Connection QObject::connect(const QObject *,const char *,const char *,Qt::ConnectionType) const' : cannot convert argument 1 from 'QAction *' to 'const QObject *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>qt_test.cpp(32): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(32): error C2228: left of '.videolabel' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(33): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(33): error C2228: left of '.videolabel' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(34): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(34): error C2228: left of '.menuBar' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(34): error C2227: left of '->addAction' must point to class/struct/union/generic type
+     1>qt_test.cpp(35): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(35): error C2228: left of '.menuBar' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(35): error C2227: left of '->addAction' must point to class/struct/union/generic type
+     1>qt_test.cpp(36): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(36): error C2228: left of '.menuBar' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(36): error C2227: left of '->addAction' must point to class/struct/union/generic type
+     1>qt_test.cpp(37): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(37): error C2228: left of '.menuBar' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(37): error C2227: left of '->addAction' must point to class/struct/union/generic type
+     1>qt_test.cpp(38): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(38): error C2228: left of '.LineptLabel' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(38): error C2227: left of '->setGeometry' must point to class/struct/union/generic type
+     1>qt_test.cpp(39): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(39): error C2228: left of '.pixelvalLabel' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(39): error C2227: left of '->setGeometry' must point to class/struct/union/generic type
+     1>qt_test.cpp(50): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(50): error C2228: left of '.videolabel' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(50): error C2227: left of '->setPixmap' must point to class/struct/union/generic type
+     1>qt_test.cpp(51): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(51): error C2228: left of '.bglabel' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(51): error C2227: left of '->setPixmap' must point to class/struct/union/generic type
+     1>qt_test.cpp(52): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(52): error C2228: left of '.slicelabel' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(52): error C2227: left of '->setPixmap' must point to class/struct/union/generic type
+     1>qt_test.cpp(53): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(53): error C2228: left of '.bgslice' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(53): error C2227: left of '->setPixmap' must point to class/struct/union/generic type
+     1>qt_test.cpp(54): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(54): error C2228: left of '.plot1Label' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(54): error C2227: left of '->setPixmap' must point to class/struct/union/generic type
+     1>qt_test.cpp(57): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(57): error C2228: left of '.videolabel' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(57): error C2227: left of '->repaint' must point to class/struct/union/generic type
+     1>qt_test.cpp(58): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(58): error C2228: left of '.slicelabel' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(58): error C2227: left of '->repaint' must point to class/struct/union/generic type
+     1>qt_test.cpp(59): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(59): error C2228: left of '.bglabel' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(59): error C2227: left of '->repaint' must point to class/struct/union/generic type
+     1>qt_test.cpp(60): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(60): error C2228: left of '.bgslice' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(60): error C2227: left of '->repaint' must point to class/struct/union/generic type
+     1>qt_test.cpp(61): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(61): error C2228: left of '.plot1Label' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(61): error C2227: left of '->repaint' must point to class/struct/union/generic type
+     1>qt_test.cpp(68): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(68): error C2228: left of '.pixelvalLabel' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(68): error C2227: left of '->setText' must point to class/struct/union/generic type
+     1>qt_test.cpp(69): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(69): error C2228: left of '.pixelvalLabel' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(69): error C2227: left of '->repaint' must point to class/struct/union/generic type
+     1>qt_test.cpp(78): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(78): error C2228: left of '.videolabel' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(78): error C2227: left of '->setGeometry' must point to class/struct/union/generic type
+     1>qt_test.cpp(79): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(79): error C2228: left of '.bglabel' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(79): error C2227: left of '->setGeometry' must point to class/struct/union/generic type
+     1>qt_test.cpp(81): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(81): error C2228: left of '.slicelabel' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(81): error C2227: left of '->setGeometry' must point to class/struct/union/generic type
+     1>qt_test.cpp(82): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(82): error C2228: left of '.bgslice' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(82): error C2227: left of '->setGeometry' must point to class/struct/union/generic type
+     1>qt_test.cpp(84): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(84): error C2228: left of '.plot1Label' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(84): error C2227: left of '->setGeometry' must point to class/struct/union/generic type
+     1>qt_test.cpp(85): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(85): error C2228: left of '.plot1Label' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(85): error C2227: left of '->setStyleSheet' must point to class/struct/union/generic type
+     1>qt_test.cpp(89): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(89): error C2228: left of '.centralWidget' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(89): error C2227: left of '->setFixedSize' must point to class/struct/union/generic type
+     1>qt_test.cpp(91): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(91): error C2228: left of '.videolabel' must have class/struct/union
+                 type is 'unknown-type'
+     1>qt_test.cpp(91): error C2227: left of '->repaint' must point to class/struct/union/generic type
+     1>qt_test.cpp(92): error C2065: 'ui' : undeclared identifier
+     1>qt_test.cpp(92): fatal error C1003: error count exceeds 100; stopping compilation
+         Generating Code...
+     1>Done Building Project "C:\Users\xcy\Documents\Visual Studio 2012\Projects\Qt_test\Qt_test\Qt_test.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.39
